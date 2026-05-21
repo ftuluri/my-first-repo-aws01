@@ -21,6 +21,8 @@ In Workshop Two, you will encounter [PartyRock](https://partyrock.aws) — AWS's
 
 A [`NOTES.md`](./NOTES.md) file lives in this repo as a starter. Use it however helps you most.
 
+The [`Student-Companion.md`](./Student-Companion.md) guide walks alongside you through the workshops — keep it open as a reference.
+
 ## What you will do in later workshops
 
 In **Workshop Two and beyond**, you will move into AWS SageMaker Studio. There you will run:
@@ -31,11 +33,24 @@ git clone https://github.com/aws-samples/aws-mlu-eep-generative-ai.git
 
 That command is the same idea as the fork you will perform today, just applied to the actual course repository inside a terminal. You don't need to do it now. We will do that together when you are in Workshop Studio.
 
+### Preview: a sample notebook
+
+The [`examples/sample-notebook.ipynb`](./examples/sample-notebook.ipynb) file is a small **Jupyter notebook** — the same kind of file you will work with inside SageMaker Studio. A notebook mixes written notes with runnable code cells, so you can read, run, and tinker all in one document.
+
+This sample walks through the core loop of a data science notebook: it loads a dataset, explores it, draws a chart, and trains a simple machine learning model. You do not need to run it today — open it whenever you are curious for a gentle, no-setup look at what SageMaker Studio work feels like.
+
 ## Three rules of public-repo hygiene
 
 1. **Every commit is permanent.** Even after you delete a file, the commit history still contains it. Treat every commit as public the moment you click the button.
 2. **No identifiable student data, ever.** No names, no grades, no IEP/504 information, no accommodation records, nothing FERPA-protected.
 3. **No institutional secrets.** No internal budgets, personnel files, private policy drafts, or unpublished research data.
+
+## Reference materials
+
+The [`docs/`](./docs) folder holds the workshop handouts. Download or open them whenever you need a refresher:
+
+- [`Git-GitHub-Faculty-Deck.pdf`](./docs/Git-GitHub-Faculty-Deck.pdf) — the slide deck from the workshops, walking through Git and GitHub for faculty.
+- [`git_sagemaker_faculty_reference.pdf`](./docs/git_sagemaker_faculty_reference.pdf) — a quick-reference handout covering the Git commands and SageMaker Studio steps you will use in later sessions.
 
 ## Need help?
 
